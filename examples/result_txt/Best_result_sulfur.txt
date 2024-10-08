@@ -1,0 +1,3 @@
+Dataset is sulfur
+Best Val RMSE: 0.3006, Best Test RMSE: 0.3259
+

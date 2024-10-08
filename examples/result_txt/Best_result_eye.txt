@@ -1,0 +1,3 @@
+Dataset is eye
+Best Val Acc: 0.7360, Best Test Acc: 0.7075
+

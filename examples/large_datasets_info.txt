@@ -1,0 +1,255 @@
+binclass
+bank-marketing
+total_size : 10578
+train_size : 6769
+val_size : 1693
+test_size : 2116
+train_size/total_size : 0.6399130270372471
+val_size/total_size : 0.1600491586311212
+test_size/total_size : 0.20003781433163167
+num_feature_num : 7
+cat_feature_num : 0
+total_feature_num : 7
+
+MagicTelescope
+total_size : 13376
+train_size : 8560
+val_size : 2140
+test_size : 2676
+train_size/total_size : 0.6399521531100478
+val_size/total_size : 0.15998803827751196
+test_size/total_size : 0.2000598086124402
+num_feature_num : 10
+cat_feature_num : 0
+total_feature_num : 10
+
+binarized-pol
+total_size : 15000
+train_size : 9600
+val_size : 2400
+test_size : 3000
+train_size/total_size : 0.64
+val_size/total_size : 0.16
+test_size/total_size : 0.2
+num_feature_num : 48
+cat_feature_num : 0
+total_feature_num : 48
+
+credit
+total_size : 16714
+train_size : 10696
+val_size : 2675
+test_size : 3343
+train_size/total_size : 0.639942563120737
+val_size/total_size : 0.16004547086274978
+test_size/total_size : 0.2000119660165131
+num_feature_num : 10
+cat_feature_num : 0
+total_feature_num : 10
+
+higgs-small
+total_size : 98049
+train_size : 62751
+val_size : 15688
+test_size : 19610
+train_size/total_size : 0.6399963283664291
+val_size/total_size : 0.16000163183714267
+test_size/total_size : 0.2000020397964283
+num_feature_num : 28
+cat_feature_num : 0
+total_feature_num : 28
+
+road-safety
+total_size : 111762
+train_size : 71527
+val_size : 17882
+test_size : 22353
+train_size/total_size : 0.6399939156421682
+val_size/total_size : 0.16000071580680375
+test_size/total_size : 0.20000536855102807
+num_feature_num : 29
+cat_feature_num : 3
+total_feature_num : 32
+
+multiclass
+eye
+total_size : 10936
+train_size : 6998
+val_size : 1750
+test_size : 2188
+train_size/total_size : 0.6399049012435991
+val_size/total_size : 0.16002194586686175
+test_size/total_size : 0.20007315288953914
+num_feature_num : 26
+cat_feature_num : 0
+total_feature_num : 26
+
+helena
+total_size : 65196
+train_size : 41724
+val_size : 10432
+test_size : 13040
+train_size/total_size : 0.6399779127553837
+val_size/total_size : 0.16000981655316276
+test_size/total_size : 0.20001227069145347
+num_feature_num : 27
+cat_feature_num : 0
+total_feature_num : 27
+
+jannis
+total_size : 83733
+train_size : 53588
+val_size : 13398
+test_size : 16747
+train_size/total_size : 0.6399866241505738
+val_size/total_size : 0.16000859876034537
+test_size/total_size : 0.20000477708908077
+num_feature_num : 54
+cat_feature_num : 0
+total_feature_num : 54
+
+covtype
+total_size : 581012
+train_size : 371847
+val_size : 92962
+test_size : 116203
+train_size/total_size : 0.6399988296283037
+val_size/total_size : 0.1600001376907878
+test_size/total_size : 0.2000010326809085
+num_feature_num : 54
+cat_feature_num : 0
+total_feature_num : 54
+
+regression
+sulfur
+total_size : 10081
+train_size : 6451
+val_size : 1613
+test_size : 2017
+train_size/total_size : 0.6399166749330424
+val_size/total_size : 0.1600039678603313
+test_size/total_size : 0.20007935720662634
+num_feature_num : 6
+cat_feature_num : 0
+total_feature_num : 6
+
+Brazilian_houses
+total_size : 10692
+train_size : 6842
+val_size : 1711
+test_size : 2139
+train_size/total_size : 0.6399176954732511
+val_size/total_size : 0.16002618780396557
+test_size/total_size : 0.2000561167227834
+num_feature_num : 8
+cat_feature_num : 0
+total_feature_num : 8
+
+Ailerons
+total_size : 13750
+train_size : 8800
+val_size : 2200
+test_size : 2750
+train_size/total_size : 0.64
+val_size/total_size : 0.16
+test_size/total_size : 0.2
+num_feature_num : 33
+cat_feature_num : 0
+total_feature_num : 33
+
+pol
+total_size : 15000
+train_size : 9600
+val_size : 2400
+test_size : 3000
+train_size/total_size : 0.64
+val_size/total_size : 0.16
+test_size/total_size : 0.2
+num_feature_num : 26
+cat_feature_num : 0
+total_feature_num : 26
+
+california
+total_size : 20640
+train_size : 13209
+val_size : 3303
+test_size : 4128
+train_size/total_size : 0.6399709302325581
+val_size/total_size : 0.16002906976744186
+test_size/total_size : 0.2
+num_feature_num : 8
+cat_feature_num : 0
+total_feature_num : 8
+
+house_sales
+total_size : 21613
+train_size : 13832
+val_size : 3458
+test_size : 4323
+train_size/total_size : 0.6399851940961458
+val_size/total_size : 0.15999629852403646
+test_size/total_size : 0.2000185073798177
+num_feature_num : 15
+cat_feature_num : 0
+total_feature_num : 15
+
+house
+total_size : 22784
+train_size : 14581
+val_size : 3646
+test_size : 4557
+train_size/total_size : 0.639966643258427
+val_size/total_size : 0.1600245786516854
+test_size/total_size : 0.20000877808988765
+num_feature_num : 16
+cat_feature_num : 0
+total_feature_num : 16
+
+diamonds
+total_size : 53940
+train_size : 34521
+val_size : 8631
+test_size : 10788
+train_size/total_size : 0.6399888765294772
+val_size/total_size : 0.1600111234705228
+test_size/total_size : 0.2
+num_feature_num : 6
+cat_feature_num : 0
+total_feature_num : 6
+
+medical_charges
+total_size : 163065
+train_size : 104361
+val_size : 26091
+test_size : 32613
+train_size/total_size : 0.6399963204856959
+val_size/total_size : 0.1600036795143041
+test_size/total_size : 0.2
+num_feature_num : 3
+cat_feature_num : 0
+total_feature_num : 3
+
+SGEMM_GPU_kernel_performance
+total_size : 241600
+train_size : 154624
+val_size : 38656
+test_size : 48320
+train_size/total_size : 0.64
+val_size/total_size : 0.16
+test_size/total_size : 0.2
+num_feature_num : 3
+cat_feature_num : 6
+total_feature_num : 9
+
+nyc-taxi-green-dec-2016
+total_size : 581835
+train_size : 372374
+val_size : 93094
+test_size : 116367
+train_size/total_size : 0.6399993125198725
+val_size/total_size : 0.16000068748012752
+test_size/total_size : 0.2
+num_feature_num : 9
+cat_feature_num : 0
+total_feature_num : 9
+

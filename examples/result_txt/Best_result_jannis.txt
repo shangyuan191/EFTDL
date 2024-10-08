@@ -1,0 +1,3 @@
+Dataset is jannis
+Best Val Acc: 0.7277, Best Test Acc: 0.7218
+

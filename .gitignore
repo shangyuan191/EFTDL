@@ -20,3 +20,16 @@ venv/*
 data/**
 catboost_info/
 .pt_tmp/
+*.pkl
+examples/data/
+examples/small_data/
+examples/large_data/
+examples/train_data.json
+examples/val_data.json
+examples/test_data.json
+examples/small_train_data.json
+examples/small_val_data.json
+examples/small_test_data.json
+examples/large_train_data.json
+examples/large_val_data.json
+examples/large_test_data.json

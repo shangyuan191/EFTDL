@@ -1,0 +1,3 @@
+Dataset is [kaggle]Analytics Vidhya Loan Prediction
+Best Val AUC: 0.7239, Best Test AUC: 0.7337
+

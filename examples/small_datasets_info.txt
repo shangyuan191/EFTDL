@@ -1,0 +1,1155 @@
+binclass
+[kaggle]Analytics Vidhya Loan Prediction
+total_size : 614
+train_size : 392
+val_size : 99
+test_size : 123
+train_size/total_size : 0.6384364820846905
+val_size/total_size : 0.16123778501628663
+test_size/total_size : 0.2003257328990228
+num_feature_num : 5
+cat_feature_num : 6
+total_feature_num : 11
+
+[kaggle]Audit Data
+total_size : 776
+train_size : 496
+val_size : 124
+test_size : 156
+train_size/total_size : 0.6391752577319587
+val_size/total_size : 0.15979381443298968
+test_size/total_size : 0.20103092783505155
+num_feature_num : 21
+cat_feature_num : 3
+total_feature_num : 24
+
+[kaggle]Automobiles
+total_size : 201
+train_size : 128
+val_size : 32
+test_size : 41
+train_size/total_size : 0.6368159203980099
+val_size/total_size : 0.15920398009950248
+test_size/total_size : 0.20398009950248755
+num_feature_num : 13
+cat_feature_num : 11
+total_feature_num : 24
+
+[kaggle]Bigg Boss India
+total_size : 567
+train_size : 362
+val_size : 91
+test_size : 114
+train_size/total_size : 0.6384479717813051
+val_size/total_size : 0.16049382716049382
+test_size/total_size : 0.20105820105820105
+num_feature_num : 6
+cat_feature_num : 8
+total_feature_num : 14
+
+[kaggle]Breast Cancer Dataset
+total_size : 569
+train_size : 364
+val_size : 91
+test_size : 114
+train_size/total_size : 0.6397188049209139
+val_size/total_size : 0.15992970123022848
+test_size/total_size : 0.20035149384885764
+num_feature_num : 30
+cat_feature_num : 0
+total_feature_num : 30
+
+[kaggle]Campus Recruitment
+total_size : 215
+train_size : 137
+val_size : 35
+test_size : 43
+train_size/total_size : 0.6372093023255814
+val_size/total_size : 0.16279069767441862
+test_size/total_size : 0.2
+num_feature_num : 6
+cat_feature_num : 7
+total_feature_num : 13
+
+[kaggle]chronic kidney disease
+total_size : 400
+train_size : 256
+val_size : 64
+test_size : 80
+train_size/total_size : 0.64
+val_size/total_size : 0.16
+test_size/total_size : 0.2
+num_feature_num : 9
+cat_feature_num : 4
+total_feature_num : 13
+
+[kaggle]Collection of Classification & Regression Datasets(House Price)
+total_size : 506
+train_size : 323
+val_size : 81
+test_size : 102
+train_size/total_size : 0.6383399209486166
+val_size/total_size : 0.1600790513833992
+test_size/total_size : 0.2015810276679842
+num_feature_num : 14
+cat_feature_num : 3
+total_feature_num : 17
+
+[kaggle]Compositions of Glass
+total_size : 214
+train_size : 136
+val_size : 35
+test_size : 43
+train_size/total_size : 0.6355140186915887
+val_size/total_size : 0.16355140186915887
+test_size/total_size : 0.20093457943925233
+num_feature_num : 9
+cat_feature_num : 0
+total_feature_num : 9
+
+[kaggle]Credit Card Approval
+total_size : 590
+train_size : 377
+val_size : 95
+test_size : 118
+train_size/total_size : 0.6389830508474577
+val_size/total_size : 0.16101694915254236
+test_size/total_size : 0.2
+num_feature_num : 6
+cat_feature_num : 9
+total_feature_num : 15
+
+[kaggle]Customer Classification
+total_size : 1000
+train_size : 640
+val_size : 160
+test_size : 200
+train_size/total_size : 0.64
+val_size/total_size : 0.16
+test_size/total_size : 0.2
+num_feature_num : 5
+cat_feature_num : 6
+total_feature_num : 11
+
+[kaggle]Development Index
+total_size : 225
+train_size : 144
+val_size : 36
+test_size : 45
+train_size/total_size : 0.64
+val_size/total_size : 0.16
+test_size/total_size : 0.2
+num_feature_num : 6
+cat_feature_num : 0
+total_feature_num : 6
+
+[kaggle]fitbit dataset
+total_size : 457
+train_size : 292
+val_size : 73
+test_size : 92
+train_size/total_size : 0.6389496717724289
+val_size/total_size : 0.15973741794310722
+test_size/total_size : 0.2013129102844639
+num_feature_num : 12
+cat_feature_num : 1
+total_feature_num : 13
+
+[kaggle]Horse Colic Dataset (with test file)
+total_size : 299
+train_size : 191
+val_size : 48
+test_size : 60
+train_size/total_size : 0.6387959866220736
+val_size/total_size : 0.1605351170568562
+test_size/total_size : 0.20066889632107024
+num_feature_num : 9
+cat_feature_num : 18
+total_feature_num : 27
+
+[kaggle]Penguins Classified
+total_size : 344
+train_size : 220
+val_size : 55
+test_size : 69
+train_size/total_size : 0.6395348837209303
+val_size/total_size : 0.15988372093023256
+test_size/total_size : 0.2005813953488372
+num_feature_num : 4
+cat_feature_num : 2
+total_feature_num : 6
+
+[kaggle]Pima-Indians_Diabetes_with_null_values
+total_size : 768
+train_size : 491
+val_size : 123
+test_size : 154
+train_size/total_size : 0.6393229166666666
+val_size/total_size : 0.16015625
+test_size/total_size : 0.20052083333333334
+num_feature_num : 8
+cat_feature_num : 0
+total_feature_num : 8
+
+[kaggle]Real Estate DataSet
+total_size : 511
+train_size : 326
+val_size : 82
+test_size : 103
+train_size/total_size : 0.6379647749510763
+val_size/total_size : 0.16046966731898238
+test_size/total_size : 0.20156555772994128
+num_feature_num : 11
+cat_feature_num : 2
+total_feature_num : 13
+
+[kaggle]Startup Success Prediction
+total_size : 923
+train_size : 590
+val_size : 148
+test_size : 185
+train_size/total_size : 0.6392199349945829
+val_size/total_size : 0.16034669555796316
+test_size/total_size : 0.20043336944745396
+num_feature_num : 9
+cat_feature_num : 26
+total_feature_num : 35
+
+[kaggle]Store Data Performance
+total_size : 135
+train_size : 86
+val_size : 22
+test_size : 27
+train_size/total_size : 0.6370370370370371
+val_size/total_size : 0.16296296296296298
+test_size/total_size : 0.2
+num_feature_num : 7
+cat_feature_num : 8
+total_feature_num : 15
+
+[kaggle]The Estonia Disaster Passenger List
+total_size : 989
+train_size : 632
+val_size : 159
+test_size : 198
+train_size/total_size : 0.6390293225480284
+val_size/total_size : 0.16076845298281092
+test_size/total_size : 0.20020222446916078
+num_feature_num : 1
+cat_feature_num : 3
+total_feature_num : 4
+
+[openml]analcatdata_creditscore
+total_size : 100
+train_size : 64
+val_size : 16
+test_size : 20
+train_size/total_size : 0.64
+val_size/total_size : 0.16
+test_size/total_size : 0.2
+num_feature_num : 3
+cat_feature_num : 3
+total_feature_num : 6
+
+[openml]analcatdata_lawsuit
+total_size : 264
+train_size : 168
+val_size : 43
+test_size : 53
+train_size/total_size : 0.6363636363636364
+val_size/total_size : 0.16287878787878787
+test_size/total_size : 0.20075757575757575
+num_feature_num : 3
+cat_feature_num : 1
+total_feature_num : 4
+
+[openml]Diabetes-Data-Set
+total_size : 768
+train_size : 491
+val_size : 123
+test_size : 154
+train_size/total_size : 0.6393229166666666
+val_size/total_size : 0.16015625
+test_size/total_size : 0.20052083333333334
+num_feature_num : 8
+cat_feature_num : 0
+total_feature_num : 8
+
+[openml]DiabeticMellitus
+total_size : 281
+train_size : 179
+val_size : 45
+test_size : 57
+train_size/total_size : 0.6370106761565836
+val_size/total_size : 0.1601423487544484
+test_size/total_size : 0.20284697508896798
+num_feature_num : 6
+cat_feature_num : 91
+total_feature_num : 97
+
+[openml]Heart_disease_classification
+total_size : 296
+train_size : 188
+val_size : 48
+test_size : 60
+train_size/total_size : 0.6351351351351351
+val_size/total_size : 0.16216216216216217
+test_size/total_size : 0.20270270270270271
+num_feature_num : 7
+cat_feature_num : 6
+total_feature_num : 13
+
+[openml]hungarian
+total_size : 294
+train_size : 188
+val_size : 47
+test_size : 59
+train_size/total_size : 0.6394557823129252
+val_size/total_size : 0.1598639455782313
+test_size/total_size : 0.20068027210884354
+num_feature_num : 11
+cat_feature_num : 2
+total_feature_num : 13
+
+[openml]Indian-Liver-Patient-Patient-Records-KFolds-5folds
+total_size : 583
+train_size : 372
+val_size : 94
+test_size : 117
+train_size/total_size : 0.6380789022298456
+val_size/total_size : 0.16123499142367068
+test_size/total_size : 0.2006861063464837
+num_feature_num : 9
+cat_feature_num : 2
+total_feature_num : 11
+
+[openml]Intersectional-Bias-Assessment-(Testing-Data)
+total_size : 1000
+train_size : 640
+val_size : 160
+test_size : 200
+train_size/total_size : 0.64
+val_size/total_size : 0.16
+test_size/total_size : 0.2
+num_feature_num : 14
+cat_feature_num : 4
+total_feature_num : 18
+
+[openml]nki70.arff
+total_size : 144
+train_size : 92
+val_size : 23
+test_size : 29
+train_size/total_size : 0.6388888888888888
+val_size/total_size : 0.1597222222222222
+test_size/total_size : 0.2013888888888889
+num_feature_num : 72
+cat_feature_num : 4
+total_feature_num : 76
+
+[openml]Pima-Indians-Diabetes
+total_size : 768
+train_size : 491
+val_size : 123
+test_size : 154
+train_size/total_size : 0.6393229166666666
+val_size/total_size : 0.16015625
+test_size/total_size : 0.20052083333333334
+num_feature_num : 8
+cat_feature_num : 0
+total_feature_num : 8
+
+[openml]Pokmon-Legendary-Data
+total_size : 801
+train_size : 512
+val_size : 128
+test_size : 161
+train_size/total_size : 0.6392009987515606
+val_size/total_size : 0.15980024968789014
+test_size/total_size : 0.2009987515605493
+num_feature_num : 9
+cat_feature_num : 1
+total_feature_num : 10
+
+[openml]student-grade-pass-or-fail-prediction
+total_size : 395
+train_size : 252
+val_size : 64
+test_size : 79
+train_size/total_size : 0.6379746835443038
+val_size/total_size : 0.1620253164556962
+test_size/total_size : 0.2
+num_feature_num : 4
+cat_feature_num : 25
+total_feature_num : 29
+
+[openml]Swiss-banknote-conterfeit-detection
+total_size : 200
+train_size : 128
+val_size : 32
+test_size : 40
+train_size/total_size : 0.64
+val_size/total_size : 0.16
+test_size/total_size : 0.2
+num_feature_num : 6
+cat_feature_num : 0
+total_feature_num : 6
+
+[openml]The-Estonia-Disaster-Passenger-List
+total_size : 989
+train_size : 632
+val_size : 159
+test_size : 198
+train_size/total_size : 0.6390293225480284
+val_size/total_size : 0.16076845298281092
+test_size/total_size : 0.20020222446916078
+num_feature_num : 1
+cat_feature_num : 3
+total_feature_num : 4
+
+[openml]tokyo1
+total_size : 959
+train_size : 613
+val_size : 154
+test_size : 192
+train_size/total_size : 0.6392075078206465
+val_size/total_size : 0.16058394160583941
+test_size/total_size : 0.20020855057351408
+num_feature_num : 42
+cat_feature_num : 2
+total_feature_num : 44
+
+[UCI]Absenteeism at work
+total_size : 740
+train_size : 473
+val_size : 119
+test_size : 148
+train_size/total_size : 0.6391891891891892
+val_size/total_size : 0.1608108108108108
+test_size/total_size : 0.2
+num_feature_num : 7
+cat_feature_num : 13
+total_feature_num : 20
+
+[UCI]Audit Data
+total_size : 776
+train_size : 496
+val_size : 124
+test_size : 156
+train_size/total_size : 0.6391752577319587
+val_size/total_size : 0.15979381443298968
+test_size/total_size : 0.20103092783505155
+num_feature_num : 21
+cat_feature_num : 3
+total_feature_num : 24
+
+[UCI]Breast Cancer Coimbra
+total_size : 116
+train_size : 73
+val_size : 19
+test_size : 24
+train_size/total_size : 0.6293103448275862
+val_size/total_size : 0.16379310344827586
+test_size/total_size : 0.20689655172413793
+num_feature_num : 9
+cat_feature_num : 0
+total_feature_num : 9
+
+[UCI]Cervical cancer (Risk Factors)
+total_size : 858
+train_size : 548
+val_size : 138
+test_size : 172
+train_size/total_size : 0.6386946386946387
+val_size/total_size : 0.16083916083916083
+test_size/total_size : 0.20046620046620048
+num_feature_num : 25
+cat_feature_num : 5
+total_feature_num : 30
+
+[UCI]Climate Model Simulation Crashes
+total_size : 540
+train_size : 345
+val_size : 87
+test_size : 108
+train_size/total_size : 0.6388888888888888
+val_size/total_size : 0.16111111111111112
+test_size/total_size : 0.2
+num_feature_num : 18
+cat_feature_num : 1
+total_feature_num : 19
+
+[UCI]Early stage diabetes risk prediction dataset
+total_size : 520
+train_size : 332
+val_size : 84
+test_size : 104
+train_size/total_size : 0.6384615384615384
+val_size/total_size : 0.16153846153846155
+test_size/total_size : 0.2
+num_feature_num : 1
+cat_feature_num : 15
+total_feature_num : 16
+
+[UCI]extention of Z-Alizadeh sani dataset
+total_size : 303
+train_size : 193
+val_size : 49
+test_size : 61
+train_size/total_size : 0.636963696369637
+val_size/total_size : 0.1617161716171617
+test_size/total_size : 0.20132013201320131
+num_feature_num : 20
+cat_feature_num : 37
+total_feature_num : 57
+
+[UCI]HCV data
+total_size : 615
+train_size : 393
+val_size : 99
+test_size : 123
+train_size/total_size : 0.6390243902439025
+val_size/total_size : 0.16097560975609757
+test_size/total_size : 0.2
+num_feature_num : 11
+cat_feature_num : 1
+total_feature_num : 12
+
+[UCI]Heart failure clinical records
+total_size : 299
+train_size : 191
+val_size : 48
+test_size : 60
+train_size/total_size : 0.6387959866220736
+val_size/total_size : 0.1605351170568562
+test_size/total_size : 0.20066889632107024
+num_feature_num : 7
+cat_feature_num : 5
+total_feature_num : 12
+
+[UCI]Parkinson Dataset with replicated acoustic features
+total_size : 240
+train_size : 153
+val_size : 39
+test_size : 48
+train_size/total_size : 0.6375
+val_size/total_size : 0.1625
+test_size/total_size : 0.2
+num_feature_num : 44
+cat_feature_num : 2
+total_feature_num : 46
+
+[UCI]QSAR Bioconcentration classes dataset
+total_size : 779
+train_size : 498
+val_size : 125
+test_size : 156
+train_size/total_size : 0.6392811296534018
+val_size/total_size : 0.16046213093709885
+test_size/total_size : 0.20025673940949937
+num_feature_num : 7
+cat_feature_num : 4
+total_feature_num : 11
+
+[UCI]Quality Assessment of Digital Colposcopies
+total_size : 97
+train_size : 61
+val_size : 16
+test_size : 20
+train_size/total_size : 0.6288659793814433
+val_size/total_size : 0.16494845360824742
+test_size/total_size : 0.20618556701030927
+num_feature_num : 62
+cat_feature_num : 0
+total_feature_num : 62
+
+[UCI]User Knowledge Modeling
+total_size : 258
+train_size : 164
+val_size : 42
+test_size : 52
+train_size/total_size : 0.6356589147286822
+val_size/total_size : 0.16279069767441862
+test_size/total_size : 0.20155038759689922
+num_feature_num : 5
+cat_feature_num : 0
+total_feature_num : 5
+
+[UCI]Z-Alizadeh Sani
+total_size : 303
+train_size : 193
+val_size : 49
+test_size : 61
+train_size/total_size : 0.636963696369637
+val_size/total_size : 0.1617161716171617
+test_size/total_size : 0.20132013201320131
+num_feature_num : 20
+cat_feature_num : 34
+total_feature_num : 54
+
+multiclass
+regression
+[openml]AAPL_stock_price_2021_2022
+total_size : 346
+train_size : 220
+val_size : 56
+test_size : 70
+train_size/total_size : 0.6358381502890174
+val_size/total_size : 0.16184971098265896
+test_size/total_size : 0.2023121387283237
+num_feature_num : 5
+cat_feature_num : 0
+total_feature_num : 5
+
+[openml]AAPL_stock_price_2021_2022_1
+total_size : 347
+train_size : 221
+val_size : 56
+test_size : 70
+train_size/total_size : 0.6368876080691642
+val_size/total_size : 0.16138328530259366
+test_size/total_size : 0.2017291066282421
+num_feature_num : 5
+cat_feature_num : 0
+total_feature_num : 5
+
+[openml]AAPL_stock_price_2021_2022_2
+total_size : 348
+train_size : 222
+val_size : 56
+test_size : 70
+train_size/total_size : 0.6379310344827587
+val_size/total_size : 0.16091954022988506
+test_size/total_size : 0.20114942528735633
+num_feature_num : 5
+cat_feature_num : 0
+total_feature_num : 5
+
+[openml]analcatdata_homerun
+total_size : 162
+train_size : 103
+val_size : 26
+test_size : 33
+train_size/total_size : 0.6358024691358025
+val_size/total_size : 0.16049382716049382
+test_size/total_size : 0.2037037037037037
+num_feature_num : 12
+cat_feature_num : 14
+total_feature_num : 26
+
+[openml]analcatdata_vineyard
+total_size : 468
+train_size : 299
+val_size : 75
+test_size : 94
+train_size/total_size : 0.6388888888888888
+val_size/total_size : 0.16025641025641027
+test_size/total_size : 0.20085470085470086
+num_feature_num : 1
+cat_feature_num : 2
+total_feature_num : 3
+
+[openml]auto_price
+total_size : 159
+train_size : 101
+val_size : 26
+test_size : 32
+train_size/total_size : 0.6352201257861635
+val_size/total_size : 0.16352201257861634
+test_size/total_size : 0.20125786163522014
+num_feature_num : 13
+cat_feature_num : 2
+total_feature_num : 15
+
+[openml]autoPrice
+total_size : 159
+train_size : 101
+val_size : 26
+test_size : 32
+train_size/total_size : 0.6352201257861635
+val_size/total_size : 0.16352201257861634
+test_size/total_size : 0.20125786163522014
+num_feature_num : 14
+cat_feature_num : 1
+total_feature_num : 15
+
+[openml]bodyfat
+total_size : 252
+train_size : 160
+val_size : 41
+test_size : 51
+train_size/total_size : 0.6349206349206349
+val_size/total_size : 0.1626984126984127
+test_size/total_size : 0.20238095238095238
+num_feature_num : 14
+cat_feature_num : 0
+total_feature_num : 14
+
+[openml]boston
+total_size : 506
+train_size : 323
+val_size : 81
+test_size : 102
+train_size/total_size : 0.6383399209486166
+val_size/total_size : 0.1600790513833992
+test_size/total_size : 0.2015810276679842
+num_feature_num : 11
+cat_feature_num : 2
+total_feature_num : 13
+
+[openml]boston_corrected
+total_size : 506
+train_size : 323
+val_size : 81
+test_size : 102
+train_size/total_size : 0.6383399209486166
+val_size/total_size : 0.1600790513833992
+test_size/total_size : 0.2015810276679842
+num_feature_num : 15
+cat_feature_num : 4
+total_feature_num : 19
+
+[openml]Boston-house-price-data
+total_size : 506
+train_size : 323
+val_size : 81
+test_size : 102
+train_size/total_size : 0.6383399209486166
+val_size/total_size : 0.1600790513833992
+test_size/total_size : 0.2015810276679842
+num_feature_num : 11
+cat_feature_num : 2
+total_feature_num : 13
+
+[openml]cholesterol
+total_size : 303
+train_size : 193
+val_size : 49
+test_size : 61
+train_size/total_size : 0.636963696369637
+val_size/total_size : 0.1617161716171617
+test_size/total_size : 0.20132013201320131
+num_feature_num : 7
+cat_feature_num : 6
+total_feature_num : 13
+
+[openml]cleveland
+total_size : 303
+train_size : 193
+val_size : 49
+test_size : 61
+train_size/total_size : 0.636963696369637
+val_size/total_size : 0.1617161716171617
+test_size/total_size : 0.20132013201320131
+num_feature_num : 7
+cat_feature_num : 6
+total_feature_num : 13
+
+[openml]cloud
+total_size : 108
+train_size : 68
+val_size : 18
+test_size : 22
+train_size/total_size : 0.6296296296296297
+val_size/total_size : 0.16666666666666666
+test_size/total_size : 0.2037037037037037
+num_feature_num : 3
+cat_feature_num : 2
+total_feature_num : 5
+
+[openml]cps_85_wages
+total_size : 534
+train_size : 341
+val_size : 86
+test_size : 107
+train_size/total_size : 0.6385767790262172
+val_size/total_size : 0.16104868913857678
+test_size/total_size : 0.20037453183520598
+num_feature_num : 3
+cat_feature_num : 7
+total_feature_num : 10
+
+[openml]cpu
+total_size : 209
+train_size : 133
+val_size : 34
+test_size : 42
+train_size/total_size : 0.6363636363636364
+val_size/total_size : 0.16267942583732056
+test_size/total_size : 0.20095693779904306
+num_feature_num : 5
+cat_feature_num : 2
+total_feature_num : 7
+
+[openml]DEE
+total_size : 365
+train_size : 233
+val_size : 59
+test_size : 73
+train_size/total_size : 0.6383561643835617
+val_size/total_size : 0.16164383561643836
+test_size/total_size : 0.2
+num_feature_num : 6
+cat_feature_num : 0
+total_feature_num : 6
+
+[openml]disclosure_x_bias
+total_size : 662
+train_size : 423
+val_size : 106
+test_size : 133
+train_size/total_size : 0.6389728096676737
+val_size/total_size : 0.16012084592145015
+test_size/total_size : 0.20090634441087613
+num_feature_num : 3
+cat_feature_num : 0
+total_feature_num : 3
+
+[openml]disclosure_x_noise
+total_size : 662
+train_size : 423
+val_size : 106
+test_size : 133
+train_size/total_size : 0.6389728096676737
+val_size/total_size : 0.16012084592145015
+test_size/total_size : 0.20090634441087613
+num_feature_num : 3
+cat_feature_num : 0
+total_feature_num : 3
+
+[openml]disclosure_x_tampered
+total_size : 662
+train_size : 423
+val_size : 106
+test_size : 133
+train_size/total_size : 0.6389728096676737
+val_size/total_size : 0.16012084592145015
+test_size/total_size : 0.20090634441087613
+num_feature_num : 3
+cat_feature_num : 0
+total_feature_num : 3
+
+[openml]disclosure_z
+total_size : 662
+train_size : 423
+val_size : 106
+test_size : 133
+train_size/total_size : 0.6389728096676737
+val_size/total_size : 0.16012084592145015
+test_size/total_size : 0.20090634441087613
+num_feature_num : 3
+cat_feature_num : 0
+total_feature_num : 3
+
+[openml]echoMonths
+total_size : 130
+train_size : 83
+val_size : 21
+test_size : 26
+train_size/total_size : 0.6384615384615384
+val_size/total_size : 0.16153846153846155
+test_size/total_size : 0.2
+num_feature_num : 7
+cat_feature_num : 2
+total_feature_num : 9
+
+[openml]EgyptianSkulls
+total_size : 150
+train_size : 96
+val_size : 24
+test_size : 30
+train_size/total_size : 0.64
+val_size/total_size : 0.16
+test_size/total_size : 0.2
+num_feature_num : 3
+cat_feature_num : 1
+total_feature_num : 4
+
+[openml]ELE-1
+total_size : 495
+train_size : 316
+val_size : 80
+test_size : 99
+train_size/total_size : 0.6383838383838384
+val_size/total_size : 0.16161616161616163
+test_size/total_size : 0.2
+num_feature_num : 2
+cat_feature_num : 0
+total_feature_num : 2
+
+[openml]fishcatch
+total_size : 158
+train_size : 100
+val_size : 26
+test_size : 32
+train_size/total_size : 0.6329113924050633
+val_size/total_size : 0.16455696202531644
+test_size/total_size : 0.20253164556962025
+num_feature_num : 5
+cat_feature_num : 2
+total_feature_num : 7
+
+[openml]Fish-market
+total_size : 159
+train_size : 101
+val_size : 26
+test_size : 32
+train_size/total_size : 0.6352201257861635
+val_size/total_size : 0.16352201257861634
+test_size/total_size : 0.20125786163522014
+num_feature_num : 5
+cat_feature_num : 1
+total_feature_num : 6
+
+[openml]forest_fires
+total_size : 517
+train_size : 330
+val_size : 83
+test_size : 104
+train_size/total_size : 0.6382978723404256
+val_size/total_size : 0.16054158607350097
+test_size/total_size : 0.2011605415860735
+num_feature_num : 8
+cat_feature_num : 4
+total_feature_num : 12
+
+[openml]Forest-Fire-Area
+total_size : 517
+train_size : 330
+val_size : 83
+test_size : 104
+train_size/total_size : 0.6382978723404256
+val_size/total_size : 0.16054158607350097
+test_size/total_size : 0.2011605415860735
+num_feature_num : 8
+cat_feature_num : 4
+total_feature_num : 12
+
+[openml]fruitfly
+total_size : 125
+train_size : 80
+val_size : 20
+test_size : 25
+train_size/total_size : 0.64
+val_size/total_size : 0.16
+test_size/total_size : 0.2
+num_feature_num : 2
+cat_feature_num : 2
+total_feature_num : 4
+
+[openml]HappinessRank_2015
+total_size : 158
+train_size : 100
+val_size : 26
+test_size : 32
+train_size/total_size : 0.6329113924050633
+val_size/total_size : 0.16455696202531644
+test_size/total_size : 0.20253164556962025
+num_feature_num : 8
+cat_feature_num : 1
+total_feature_num : 9
+
+[openml]liver-disorders
+total_size : 345
+train_size : 220
+val_size : 56
+test_size : 69
+train_size/total_size : 0.6376811594202898
+val_size/total_size : 0.16231884057971013
+test_size/total_size : 0.2
+num_feature_num : 5
+cat_feature_num : 0
+total_feature_num : 5
+
+[openml]lowbwt
+total_size : 189
+train_size : 120
+val_size : 31
+test_size : 38
+train_size/total_size : 0.6349206349206349
+val_size/total_size : 0.164021164021164
+test_size/total_size : 0.20105820105820105
+num_feature_num : 2
+cat_feature_num : 7
+total_feature_num : 9
+
+[openml]lungcancer_shedden
+total_size : 442
+train_size : 282
+val_size : 71
+test_size : 89
+train_size/total_size : 0.6380090497737556
+val_size/total_size : 0.16063348416289594
+test_size/total_size : 0.20135746606334842
+num_feature_num : 20
+cat_feature_num : 3
+total_feature_num : 23
+
+[openml]machine_cpu
+total_size : 209
+train_size : 133
+val_size : 34
+test_size : 42
+train_size/total_size : 0.6363636363636364
+val_size/total_size : 0.16267942583732056
+test_size/total_size : 0.20095693779904306
+num_feature_num : 6
+cat_feature_num : 0
+total_feature_num : 6
+
+[openml]meta
+total_size : 528
+train_size : 337
+val_size : 85
+test_size : 106
+train_size/total_size : 0.6382575757575758
+val_size/total_size : 0.16098484848484848
+test_size/total_size : 0.20075757575757575
+num_feature_num : 16
+cat_feature_num : 5
+total_feature_num : 21
+
+[openml]no2
+total_size : 500
+train_size : 320
+val_size : 80
+test_size : 100
+train_size/total_size : 0.64
+val_size/total_size : 0.16
+test_size/total_size : 0.2
+num_feature_num : 7
+cat_feature_num : 0
+total_feature_num : 7
+
+[openml]pharynx
+total_size : 195
+train_size : 124
+val_size : 32
+test_size : 39
+train_size/total_size : 0.6358974358974359
+val_size/total_size : 0.1641025641025641
+test_size/total_size : 0.2
+num_feature_num : 3
+cat_feature_num : 7
+total_feature_num : 10
+
+[openml]pm10
+total_size : 500
+train_size : 320
+val_size : 80
+test_size : 100
+train_size/total_size : 0.64
+val_size/total_size : 0.16
+test_size/total_size : 0.2
+num_feature_num : 7
+cat_feature_num : 0
+total_feature_num : 7
+
+[openml]Reading_Hydro
+total_size : 1000
+train_size : 640
+val_size : 160
+test_size : 200
+train_size/total_size : 0.64
+val_size/total_size : 0.16
+test_size/total_size : 0.2
+num_feature_num : 11
+cat_feature_num : 15
+total_feature_num : 26
+
+[openml]residential_building
+total_size : 372
+train_size : 237
+val_size : 60
+test_size : 75
+train_size/total_size : 0.6370967741935484
+val_size/total_size : 0.16129032258064516
+test_size/total_size : 0.20161290322580644
+num_feature_num : 100
+cat_feature_num : 8
+total_feature_num : 108
+
+[openml]rmftsa_ladata
+total_size : 508
+train_size : 324
+val_size : 82
+test_size : 102
+train_size/total_size : 0.6377952755905512
+val_size/total_size : 0.16141732283464566
+test_size/total_size : 0.20078740157480315
+num_feature_num : 10
+cat_feature_num : 0
+total_feature_num : 10
+
+[openml]strikes
+total_size : 625
+train_size : 400
+val_size : 100
+test_size : 125
+train_size/total_size : 0.64
+val_size/total_size : 0.16
+test_size/total_size : 0.2
+num_feature_num : 6
+cat_feature_num : 0
+total_feature_num : 6
+
+[openml]The-Office-Dataset
+total_size : 188
+train_size : 120
+val_size : 30
+test_size : 38
+train_size/total_size : 0.6382978723404256
+val_size/total_size : 0.1595744680851064
+test_size/total_size : 0.20212765957446807
+num_feature_num : 2
+cat_feature_num : 8
+total_feature_num : 10
+
+[openml]visualizing_environmental
+total_size : 111
+train_size : 70
+val_size : 18
+test_size : 23
+train_size/total_size : 0.6306306306306306
+val_size/total_size : 0.16216216216216217
+test_size/total_size : 0.2072072072072072
+num_feature_num : 3
+cat_feature_num : 0
+total_feature_num : 3
+
+[openml]weather_ankara
+total_size : 321
+train_size : 204
+val_size : 52
+test_size : 65
+train_size/total_size : 0.6355140186915887
+val_size/total_size : 0.16199376947040497
+test_size/total_size : 0.20249221183800623
+num_feature_num : 9
+cat_feature_num : 0
+total_feature_num : 9
+
+[openml]wisconsin
+total_size : 194
+train_size : 124
+val_size : 31
+test_size : 39
+train_size/total_size : 0.6391752577319587
+val_size/total_size : 0.15979381443298968
+test_size/total_size : 0.20103092783505155
+num_feature_num : 32
+cat_feature_num : 0
+total_feature_num : 32
+
+[openml]yacht_hydrodynamics
+total_size : 308
+train_size : 196
+val_size : 50
+test_size : 62
+train_size/total_size : 0.6363636363636364
+val_size/total_size : 0.16233766233766234
+test_size/total_size : 0.2012987012987013
+num_feature_num : 6
+cat_feature_num : 0
+total_feature_num : 6
+

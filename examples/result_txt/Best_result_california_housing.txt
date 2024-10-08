@@ -1,0 +1,3 @@
+Dataset is california_housing
+Best Val RMSE: 0.4665, Best Test RMSE: 0.4515
+

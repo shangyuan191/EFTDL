@@ -1,0 +1,3 @@
+Dataset is yahoo
+Best Val RMSE: 0.7744, Best Test RMSE: 0.7605
+

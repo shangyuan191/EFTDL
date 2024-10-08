@@ -1,0 +1,3 @@
+Dataset is adult
+Best Val AUC: 0.9040, Best Test AUC: 0.9031
+

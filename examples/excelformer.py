@@ -17,6 +17,7 @@ higgs_small: 80.75 (79.27) mixup: hidden
 import argparse
 import os.path as osp
 
+import matplotlib.pyplot as plt
 import torch
 import torch.nn.functional as F
 from torch.optim.lr_scheduler import ExponentialLR
@@ -27,9 +28,27 @@ from torch_frame.data.loader import DataLoader
 from torch_frame.datasets.yandex import Yandex
 from torch_frame.nn import ExcelFormer
 from torch_frame.transforms import CatToNumTransform, MutualInformationSort
+from tqdm import tqdm
+
+
+# classification_datasets = {
+#     'adult', 'aloi', 'covtype', 'helena', 'higgs_small', 'jannis'
+# }
+# regression_datasets = {'california_housing', 'microsoft', 'yahoo', 'year'}
+
+
+# dataset_strs = [
+#     'adult', 'aloi', 'covtype', 'helena', 
+#     'higgs_small', 'jannis', 
+#     'california_housing', 'microsoft', 
+#     'yahoo', 'year'
+# ]
+
+
 
 parser = argparse.ArgumentParser()
-parser.add_argument('--dataset', type=str, default='california_housing')
+parser.add_argument('--dataset_size',type=str,default='large_datasets')
+parser.add_argument('--dataset', type=str, default="sulfur")
 parser.add_argument('--mixup', type=str, default=None,
                     choices=[None, 'feature', 'hidden'])
 parser.add_argument('--channels', type=int, default=256)
@@ -43,12 +62,22 @@ parser.add_argument('--compile', action='store_true')
 args = parser.parse_args()
 
 device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
-
-path = osp.join(osp.dirname(osp.realpath(__file__)), '..', 'data',
+print(device)
+print(args.dataset)
+path = osp.join(osp.dirname(osp.realpath(__file__)), '..', 'data',args.dataset_size,
                 args.dataset)
+print(path)
 dataset = Yandex(root=path, name=args.dataset)
 dataset.materialize()
+print(len(dataset))
+print(type(dataset))
 train_dataset, val_dataset, test_dataset = dataset.split()
+print(len(train_dataset))
+print(type(train_dataset))
+print(len(val_dataset))
+print(type(val_dataset))
+print(len(test_dataset))
+print(type(test_dataset))
 train_tensor_frame = train_dataset.tensor_frame
 val_tensor_frame = val_dataset.tensor_frame
 test_tensor_frame = test_dataset.tensor_frame
@@ -73,7 +102,7 @@ val_tensor_frame = mutual_info_sort(val_tensor_frame)
 test_tensor_frame = mutual_info_sort(test_tensor_frame)
 
 train_loader = DataLoader(train_tensor_frame, batch_size=args.batch_size,
-                          shuffle=True)
+                        shuffle=True)
 val_loader = DataLoader(val_tensor_frame, batch_size=args.batch_size)
 test_loader = DataLoader(test_tensor_frame, batch_size=args.batch_size)
 
@@ -163,11 +192,22 @@ else:
     best_val_metric = float('inf')
     best_test_metric = float('inf')
 
+
+all_train_loss=[]
+all_train_metric=[]
+all_val_metric=[]
+all_test_metric=[]
+epochs=range(1,args.epochs+1)
 for epoch in range(1, args.epochs + 1):
     train_loss = train(epoch)
     train_metric = test(train_loader)
     val_metric = test(val_loader)
     test_metric = test(test_loader)
+    
+    all_train_loss.append(train_loss)
+    all_train_metric.append(train_metric)
+    all_val_metric.append(val_metric)
+    all_test_metric.append(test_metric)
 
     if is_classification and val_metric > best_val_metric:
         best_val_metric = val_metric
@@ -177,8 +217,33 @@ for epoch in range(1, args.epochs + 1):
         best_test_metric = test_metric
 
     print(f'Train Loss: {train_loss:.4f}, Train {metric}: {train_metric:.4f}, '
-          f'Val {metric}: {val_metric:.4f}, Test {metric}: {test_metric:.4f}')
+        f'Val {metric}: {val_metric:.4f}, Test {metric}: {test_metric:.4f}')
     lr_scheduler.step()
 
 print(f'Best Val {metric}: {best_val_metric:.4f}, '
-      f'Best Test {metric}: {best_test_metric:.4f}')
+    f'Best Test {metric}: {best_test_metric:.4f}')
+with open(f'./result_txt/Best_result_{args.dataset}.txt','w') as f:
+    f.write(f"Dataset is {args.dataset}\n")
+    f.write(f'Best Val {metric}: {best_val_metric:.4f}, 'f'Best Test {metric}: {best_test_metric:.4f}\n\n')
+
+# 第一張圖：訓練損失
+plt.subplot(2, 1, 1)
+plt.plot(epochs, all_train_loss, label='Train Loss')
+plt.xlabel('Epoch')
+plt.ylabel('Loss')
+plt.title('Training Loss Over Epochs')
+plt.legend()
+
+# 第二張圖：metric（包括訓練、驗證、測試的 metric）
+plt.subplot(2, 1, 2)
+plt.plot(epochs, all_train_metric, label=f'Train {metric}')
+plt.plot(epochs, all_val_metric, label=f'Validation {metric}')
+plt.plot(epochs, all_test_metric, label=f'Test {metric}')
+plt.xlabel('Epoch')
+plt.ylabel(f'{metric}')
+plt.title(f'{metric} Over Epochs (Train, Validation, Test)')
+plt.legend()
+
+# 顯示圖表
+plt.tight_layout()
+plt.savefig(f"./plot/{args.dataset}.png")
