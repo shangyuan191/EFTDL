@@ -1,0 +1,470 @@
+{
+    "[kaggle]Analytics Vidhya Loan Prediction": {
+        "task_type": "binclass",
+        "dataset_type": "small"
+    },
+    "[kaggle]Audit Data": {
+        "task_type": "binclass",
+        "dataset_type": "small"
+    },
+    "[kaggle]Automobiles": {
+        "task_type": "binclass",
+        "dataset_type": "small"
+    },
+    "[kaggle]Bigg Boss India": {
+        "task_type": "binclass",
+        "dataset_type": "small"
+    },
+    "[kaggle]Breast Cancer Dataset": {
+        "task_type": "binclass",
+        "dataset_type": "small"
+    },
+    "[kaggle]Campus Recruitment": {
+        "task_type": "binclass",
+        "dataset_type": "small"
+    },
+    "[kaggle]chronic kidney disease": {
+        "task_type": "binclass",
+        "dataset_type": "small"
+    },
+    "[kaggle]Collection of Classification & Regression Datasets(House Price)": {
+        "task_type": "binclass",
+        "dataset_type": "small"
+    },
+    "[kaggle]Compositions of Glass": {
+        "task_type": "binclass",
+        "dataset_type": "small"
+    },
+    "[kaggle]Credit Card Approval": {
+        "task_type": "binclass",
+        "dataset_type": "small"
+    },
+    "[kaggle]Customer Classification": {
+        "task_type": "binclass",
+        "dataset_type": "small"
+    },
+    "[kaggle]Development Index": {
+        "task_type": "binclass",
+        "dataset_type": "small"
+    },
+    "[kaggle]fitbit dataset": {
+        "task_type": "binclass",
+        "dataset_type": "small"
+    },
+    "[kaggle]Horse Colic Dataset (with test file)": {
+        "task_type": "binclass",
+        "dataset_type": "small"
+    },
+    "[kaggle]Penguins Classified": {
+        "task_type": "binclass",
+        "dataset_type": "small"
+    },
+    "[kaggle]Pima-Indians_Diabetes_with_null_values": {
+        "task_type": "binclass",
+        "dataset_type": "small"
+    },
+    "[kaggle]Real Estate DataSet": {
+        "task_type": "binclass",
+        "dataset_type": "small"
+    },
+    "[kaggle]Startup Success Prediction": {
+        "task_type": "binclass",
+        "dataset_type": "small"
+    },
+    "[kaggle]Store Data Performance": {
+        "task_type": "binclass",
+        "dataset_type": "small"
+    },
+    "[kaggle]The Estonia Disaster Passenger List": {
+        "task_type": "binclass",
+        "dataset_type": "small"
+    },
+    "[openml]analcatdata_creditscore": {
+        "task_type": "binclass",
+        "dataset_type": "small"
+    },
+    "[openml]analcatdata_lawsuit": {
+        "task_type": "binclass",
+        "dataset_type": "small"
+    },
+    "[openml]Diabetes-Data-Set": {
+        "task_type": "binclass",
+        "dataset_type": "small"
+    },
+    "[openml]DiabeticMellitus": {
+        "task_type": "binclass",
+        "dataset_type": "small"
+    },
+    "[openml]Heart_disease_classification": {
+        "task_type": "binclass",
+        "dataset_type": "small"
+    },
+    "[openml]hungarian": {
+        "task_type": "binclass",
+        "dataset_type": "small"
+    },
+    "[openml]Indian-Liver-Patient-Patient-Records-KFolds-5folds": {
+        "task_type": "binclass",
+        "dataset_type": "small"
+    },
+    "[openml]Intersectional-Bias-Assessment-(Testing-Data)": {
+        "task_type": "binclass",
+        "dataset_type": "small"
+    },
+    "[openml]nki70.arff": {
+        "task_type": "binclass",
+        "dataset_type": "small"
+    },
+    "[openml]Pima-Indians-Diabetes": {
+        "task_type": "binclass",
+        "dataset_type": "small"
+    },
+    "[openml]Pokmon-Legendary-Data": {
+        "task_type": "binclass",
+        "dataset_type": "small"
+    },
+    "[openml]student-grade-pass-or-fail-prediction": {
+        "task_type": "binclass",
+        "dataset_type": "small"
+    },
+    "[openml]Swiss-banknote-conterfeit-detection": {
+        "task_type": "binclass",
+        "dataset_type": "small"
+    },
+    "[openml]The-Estonia-Disaster-Passenger-List": {
+        "task_type": "binclass",
+        "dataset_type": "small"
+    },
+    "[openml]tokyo1": {
+        "task_type": "binclass",
+        "dataset_type": "small"
+    },
+    "[UCI]Absenteeism at work": {
+        "task_type": "binclass",
+        "dataset_type": "small"
+    },
+    "[UCI]Audit Data": {
+        "task_type": "binclass",
+        "dataset_type": "small"
+    },
+    "[UCI]Breast Cancer Coimbra": {
+        "task_type": "binclass",
+        "dataset_type": "small"
+    },
+    "[UCI]Cervical cancer (Risk Factors)": {
+        "task_type": "binclass",
+        "dataset_type": "small"
+    },
+    "[UCI]Climate Model Simulation Crashes": {
+        "task_type": "binclass",
+        "dataset_type": "small"
+    },
+    "[UCI]Early stage diabetes risk prediction dataset": {
+        "task_type": "binclass",
+        "dataset_type": "small"
+    },
+    "[UCI]extention of Z-Alizadeh sani dataset": {
+        "task_type": "binclass",
+        "dataset_type": "small"
+    },
+    "[UCI]HCV data": {
+        "task_type": "binclass",
+        "dataset_type": "small"
+    },
+    "[UCI]Heart failure clinical records": {
+        "task_type": "binclass",
+        "dataset_type": "small"
+    },
+    "[UCI]Parkinson Dataset with replicated acoustic features": {
+        "task_type": "binclass",
+        "dataset_type": "small"
+    },
+    "[UCI]QSAR Bioconcentration classes dataset": {
+        "task_type": "binclass",
+        "dataset_type": "small"
+    },
+    "[UCI]Quality Assessment of Digital Colposcopies": {
+        "task_type": "binclass",
+        "dataset_type": "small"
+    },
+    "[UCI]User Knowledge Modeling": {
+        "task_type": "binclass",
+        "dataset_type": "small"
+    },
+    "[UCI]Z-Alizadeh Sani": {
+        "task_type": "binclass",
+        "dataset_type": "small"
+    },
+    "[openml]AAPL_stock_price_2021_2022": {
+        "task_type": "regression",
+        "dataset_type": "small"
+    },
+    "[openml]AAPL_stock_price_2021_2022_1": {
+        "task_type": "regression",
+        "dataset_type": "small"
+    },
+    "[openml]AAPL_stock_price_2021_2022_2": {
+        "task_type": "regression",
+        "dataset_type": "small"
+    },
+    "[openml]analcatdata_homerun": {
+        "task_type": "regression",
+        "dataset_type": "small"
+    },
+    "[openml]analcatdata_vineyard": {
+        "task_type": "regression",
+        "dataset_type": "small"
+    },
+    "[openml]auto_price": {
+        "task_type": "regression",
+        "dataset_type": "small"
+    },
+    "[openml]autoPrice": {
+        "task_type": "regression",
+        "dataset_type": "small"
+    },
+    "[openml]bodyfat": {
+        "task_type": "regression",
+        "dataset_type": "small"
+    },
+    "[openml]boston": {
+        "task_type": "regression",
+        "dataset_type": "small"
+    },
+    "[openml]boston_corrected": {
+        "task_type": "regression",
+        "dataset_type": "small"
+    },
+    "[openml]Boston-house-price-data": {
+        "task_type": "regression",
+        "dataset_type": "small"
+    },
+    "[openml]cholesterol": {
+        "task_type": "regression",
+        "dataset_type": "small"
+    },
+    "[openml]cleveland": {
+        "task_type": "regression",
+        "dataset_type": "small"
+    },
+    "[openml]cloud": {
+        "task_type": "regression",
+        "dataset_type": "small"
+    },
+    "[openml]cps_85_wages": {
+        "task_type": "regression",
+        "dataset_type": "small"
+    },
+    "[openml]cpu": {
+        "task_type": "regression",
+        "dataset_type": "small"
+    },
+    "[openml]DEE": {
+        "task_type": "regression",
+        "dataset_type": "small"
+    },
+    "[openml]disclosure_x_bias": {
+        "task_type": "regression",
+        "dataset_type": "small"
+    },
+    "[openml]disclosure_x_noise": {
+        "task_type": "regression",
+        "dataset_type": "small"
+    },
+    "[openml]disclosure_x_tampered": {
+        "task_type": "regression",
+        "dataset_type": "small"
+    },
+    "[openml]disclosure_z": {
+        "task_type": "regression",
+        "dataset_type": "small"
+    },
+    "[openml]echoMonths": {
+        "task_type": "regression",
+        "dataset_type": "small"
+    },
+    "[openml]EgyptianSkulls": {
+        "task_type": "regression",
+        "dataset_type": "small"
+    },
+    "[openml]ELE-1": {
+        "task_type": "regression",
+        "dataset_type": "small"
+    },
+    "[openml]fishcatch": {
+        "task_type": "regression",
+        "dataset_type": "small"
+    },
+    "[openml]Fish-market": {
+        "task_type": "regression",
+        "dataset_type": "small"
+    },
+    "[openml]forest_fires": {
+        "task_type": "regression",
+        "dataset_type": "small"
+    },
+    "[openml]Forest-Fire-Area": {
+        "task_type": "regression",
+        "dataset_type": "small"
+    },
+    "[openml]fruitfly": {
+        "task_type": "regression",
+        "dataset_type": "small"
+    },
+    "[openml]HappinessRank_2015": {
+        "task_type": "regression",
+        "dataset_type": "small"
+    },
+    "[openml]liver-disorders": {
+        "task_type": "regression",
+        "dataset_type": "small"
+    },
+    "[openml]lowbwt": {
+        "task_type": "regression",
+        "dataset_type": "small"
+    },
+    "[openml]lungcancer_shedden": {
+        "task_type": "regression",
+        "dataset_type": "small"
+    },
+    "[openml]machine_cpu": {
+        "task_type": "regression",
+        "dataset_type": "small"
+    },
+    "[openml]meta": {
+        "task_type": "regression",
+        "dataset_type": "small"
+    },
+    "[openml]no2": {
+        "task_type": "regression",
+        "dataset_type": "small"
+    },
+    "[openml]pharynx": {
+        "task_type": "regression",
+        "dataset_type": "small"
+    },
+    "[openml]pm10": {
+        "task_type": "regression",
+        "dataset_type": "small"
+    },
+    "[openml]Reading_Hydro": {
+        "task_type": "regression",
+        "dataset_type": "small"
+    },
+    "[openml]residential_building": {
+        "task_type": "regression",
+        "dataset_type": "small"
+    },
+    "[openml]rmftsa_ladata": {
+        "task_type": "regression",
+        "dataset_type": "small"
+    },
+    "[openml]strikes": {
+        "task_type": "regression",
+        "dataset_type": "small"
+    },
+    "[openml]The-Office-Dataset": {
+        "task_type": "regression",
+        "dataset_type": "small"
+    },
+    "[openml]visualizing_environmental": {
+        "task_type": "regression",
+        "dataset_type": "small"
+    },
+    "[openml]weather_ankara": {
+        "task_type": "regression",
+        "dataset_type": "small"
+    },
+    "[openml]wisconsin": {
+        "task_type": "regression",
+        "dataset_type": "small"
+    },
+    "[openml]yacht_hydrodynamics": {
+        "task_type": "regression",
+        "dataset_type": "small"
+    },
+    "bank-marketing": {
+        "task_type": "binclass",
+        "dataset_type": "large"
+    },
+    "MagicTelescope": {
+        "task_type": "binclass",
+        "dataset_type": "large"
+    },
+    "binarized-pol": {
+        "task_type": "binclass",
+        "dataset_type": "large"
+    },
+    "credit": {
+        "task_type": "binclass",
+        "dataset_type": "large"
+    },
+    "higgs-small": {
+        "task_type": "binclass",
+        "dataset_type": "large"
+    },
+    "road-safety": {
+        "task_type": "binclass",
+        "dataset_type": "large"
+    },
+    "eye": {
+        "task_type": "multiclass",
+        "dataset_type": "large"
+    },
+    "helena": {
+        "task_type": "multiclass",
+        "dataset_type": "large"
+    },
+    "jannis": {
+        "task_type": "multiclass",
+        "dataset_type": "large"
+    },
+    "covtype": {
+        "task_type": "multiclass",
+        "dataset_type": "large"
+    },
+    "sulfur": {
+        "task_type": "regression",
+        "dataset_type": "large"
+    },
+    "Brazilian_houses": {
+        "task_type": "regression",
+        "dataset_type": "large"
+    },
+    "Ailerons": {
+        "task_type": "regression",
+        "dataset_type": "large"
+    },
+    "pol": {
+        "task_type": "regression",
+        "dataset_type": "large"
+    },
+    "california": {
+        "task_type": "regression",
+        "dataset_type": "large"
+    },
+    "house_sales": {
+        "task_type": "regression",
+        "dataset_type": "large"
+    },
+    "house": {
+        "task_type": "regression",
+        "dataset_type": "large"
+    },
+    "diamonds": {
+        "task_type": "regression",
+        "dataset_type": "large"
+    },
+    "medical_charges": {
+        "task_type": "regression",
+        "dataset_type": "large"
+    },
+    "SGEMM_GPU_kernel_performance": {
+        "task_type": "regression",
+        "dataset_type": "large"
+    },
+    "nyc-taxi-green-dec-2016": {
+        "task_type": "regression",
+        "dataset_type": "large"
+    }
+}
