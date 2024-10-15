@@ -809,3 +809,245 @@ Best Val RMSE: 0.6829, Best Test RMSE: 0.8776
 
 
 Dataset name : [openml]strikes
+Dataset size : small
+Task type : regression
+Train_val_test_split_ratio : [0.64, 0.16, 0.2]
+Best Val RMSE: 0.6800, Best Test RMSE: 1.2689
+Train_val_test_split_ratio : [0.05, 0.15, 0.8]
+Best Val RMSE: 1.5856, Best Test RMSE: 1.1517
+
+
+Dataset name : [openml]The-Office-Dataset
+Dataset size : small
+Task type : regression
+Train_val_test_split_ratio : [0.64, 0.16, 0.2]
+Best Val RMSE: 0.6374, Best Test RMSE: 0.6386
+Train_val_test_split_ratio : [0.05, 0.15, 0.8]
+Best Val RMSE: 0.8668, Best Test RMSE: 0.9397
+
+
+Dataset name : [openml]visualizing_environmental
+Dataset size : small
+Task type : regression
+Train_val_test_split_ratio : [0.64, 0.16, 0.2]
+Best Val RMSE: 1.0620, Best Test RMSE: 0.8825
+Train_val_test_split_ratio : [0.05, 0.15, 0.8]
+Best Val RMSE: 0.6854, Best Test RMSE: 0.8391
+
+
+Dataset name : [openml]weather_ankara
+Dataset size : small
+Task type : regression
+Train_val_test_split_ratio : [0.64, 0.16, 0.2]
+Best Val RMSE: 0.1221, Best Test RMSE: 0.1241
+Train_val_test_split_ratio : [0.05, 0.15, 0.8]
+Best Val RMSE: 0.2907, Best Test RMSE: 0.2682
+
+
+Dataset name : [openml]wisconsin
+Dataset size : small
+Task type : regression
+Train_val_test_split_ratio : [0.64, 0.16, 0.2]
+Best Val RMSE: 0.9205, Best Test RMSE: 0.9211
+Train_val_test_split_ratio : [0.05, 0.15, 0.8]
+Best Val RMSE: 0.9626, Best Test RMSE: 1.0499
+
+
+Dataset name : [openml]yacht_hydrodynamics
+Dataset size : small
+Task type : regression
+Train_val_test_split_ratio : [0.64, 0.16, 0.2]
+Best Val RMSE: 0.0874, Best Test RMSE: 0.0452
+Train_val_test_split_ratio : [0.05, 0.15, 0.8]
+Best Val RMSE: 0.1343, Best Test RMSE: 0.1909
+
+
+Dataset name : bank-marketing
+Dataset size : large
+Task type : binclass
+Train_val_test_split_ratio : [0.64, 0.16, 0.2]
+Best Val AUC: 0.8626, Best Test AUC: 0.8769
+Train_val_test_split_ratio : [0.05, 0.15, 0.8]
+Best Val AUC: 0.8045, Best Test AUC: 0.8262
+
+
+Dataset name : MagicTelescope
+Dataset size : large
+Task type : binclass
+Train_val_test_split_ratio : [0.64, 0.16, 0.2]
+Best Val AUC: 0.8776, Best Test AUC: 0.8687
+Train_val_test_split_ratio : [0.05, 0.15, 0.8]
+Best Val AUC: 0.9138, Best Test AUC: 0.9022
+
+
+Dataset name : binarized-pol
+Dataset size : large
+Task type : binclass
+Train_val_test_split_ratio : [0.64, 0.16, 0.2]
+Best Val AUC: 0.9995, Best Test AUC: 0.9990
+Train_val_test_split_ratio : [0.05, 0.15, 0.8]
+Best Val AUC: 0.9894, Best Test AUC: 0.9888
+
+
+Dataset name : credit
+Dataset size : large
+Task type : binclass
+Train_val_test_split_ratio : [0.64, 0.16, 0.2]
+Best Val AUC: 0.8363, Best Test AUC: 0.8214
+Train_val_test_split_ratio : [0.05, 0.15, 0.8]
+Best Val AUC: 0.8454, Best Test AUC: 0.8385
+
+
+Dataset name : higgs-small
+Dataset size : large
+Task type : binclass
+Train_val_test_split_ratio : [0.64, 0.16, 0.2]
+Best Val AUC: 0.7898, Best Test AUC: 0.7833
+Train_val_test_split_ratio : [0.05, 0.15, 0.8]
+Best Val AUC: 0.7211, Best Test AUC: 0.7220
+
+
+Dataset name : road-safety
+Dataset size : large
+Task type : binclass
+Train_val_test_split_ratio : [0.64, 0.16, 0.2]
+Best Val AUC: 0.7270, Best Test AUC: 0.7197
+Train_val_test_split_ratio : [0.05, 0.15, 0.8]
+Best Val AUC: 0.6675, Best Test AUC: 0.6631
+
+
+Dataset name : eye
+Dataset size : large
+Task type : multiclass
+Train_val_test_split_ratio : [0.64, 0.16, 0.2]
+Best Val Acc: 0.6975, Best Test Acc: 0.7185
+Train_val_test_split_ratio : [0.05, 0.15, 0.8]
+Best Val Acc: 0.5116, Best Test Acc: 0.5050
+
+
+Dataset name : helena
+Dataset size : large
+Task type : multiclass
+Train_val_test_split_ratio : [0.64, 0.16, 0.2]
+Best Val Acc: 0.3716, Best Test Acc: 0.3662
+Train_val_test_split_ratio : [0.05, 0.15, 0.8]
+Best Val Acc: 0.2897, Best Test Acc: 0.2894
+
+
+Dataset name : jannis
+Dataset size : large
+Task type : multiclass
+Train_val_test_split_ratio : [0.64, 0.16, 0.2]
+Best Val Acc: 0.7222, Best Test Acc: 0.7266
+Train_val_test_split_ratio : [0.05, 0.15, 0.8]
+Best Val Acc: 0.6771, Best Test Acc: 0.6790
+
+
+Dataset name : covtype
+Dataset size : large
+Task type : multiclass
+Train_val_test_split_ratio : [0.64, 0.16, 0.2]
+Best Val Acc: 0.9739, Best Test Acc: 0.9735
+Train_val_test_split_ratio : [0.05, 0.15, 0.8]
+Best Val Acc: 0.9017, Best Test Acc: 0.9016
+
+
+Dataset name : sulfur
+Dataset size : large
+Task type : regression
+Train_val_test_split_ratio : [0.64, 0.16, 0.2]
+Best Val RMSE: 0.6175, Best Test RMSE: 0.5641
+Train_val_test_split_ratio : [0.05, 0.15, 0.8]
+Best Val RMSE: 0.4429, Best Test RMSE: 0.5611
+
+
+Dataset name : Brazilian_houses
+Dataset size : large
+Task type : regression
+Train_val_test_split_ratio : [0.64, 0.16, 0.2]
+Best Val RMSE: 0.0774, Best Test RMSE: 0.0667
+Train_val_test_split_ratio : [0.05, 0.15, 0.8]
+Best Val RMSE: 0.2317, Best Test RMSE: 0.1417
+
+
+Dataset name : Ailerons
+Dataset size : large
+Task type : regression
+Train_val_test_split_ratio : [0.64, 0.16, 0.2]
+Best Val RMSE: 0.3912, Best Test RMSE: 0.3701
+Train_val_test_split_ratio : [0.05, 0.15, 0.8]
+Best Val RMSE: 0.4199, Best Test RMSE: 0.4128
+
+
+Dataset name : pol
+Dataset size : large
+Task type : regression
+Train_val_test_split_ratio : [0.64, 0.16, 0.2]
+Best Val RMSE: 0.0604, Best Test RMSE: 0.0635
+Train_val_test_split_ratio : [0.05, 0.15, 0.8]
+Best Val RMSE: 0.2226, Best Test RMSE: 0.2193
+
+
+Dataset name : california
+Dataset size : large
+Task type : regression
+Train_val_test_split_ratio : [0.64, 0.16, 0.2]
+Best Val RMSE: 0.3813, Best Test RMSE: 0.3913
+Train_val_test_split_ratio : [0.05, 0.15, 0.8]
+Best Val RMSE: 0.5405, Best Test RMSE: 0.5386
+
+
+Dataset name : house_sales
+Dataset size : large
+Task type : regression
+Train_val_test_split_ratio : [0.64, 0.16, 0.2]
+Best Val RMSE: 0.3280, Best Test RMSE: 0.3230
+Train_val_test_split_ratio : [0.05, 0.15, 0.8]
+Best Val RMSE: 0.3913, Best Test RMSE: 0.3947
+
+
+Dataset name : house
+Dataset size : large
+Task type : regression
+Train_val_test_split_ratio : [0.64, 0.16, 0.2]
+Best Val RMSE: 0.5786, Best Test RMSE: 0.5413
+Train_val_test_split_ratio : [0.05, 0.15, 0.8]
+Best Val RMSE: 0.6942, Best Test RMSE: 0.6724
+
+
+Dataset name : diamonds
+Dataset size : large
+Task type : regression
+Train_val_test_split_ratio : [0.64, 0.16, 0.2]
+Best Val RMSE: 0.2320, Best Test RMSE: 0.2311
+Train_val_test_split_ratio : [0.05, 0.15, 0.8]
+Best Val RMSE: 0.2434, Best Test RMSE: 0.2433
+
+
+Dataset name : medical_charges
+Dataset size : large
+Task type : regression
+Train_val_test_split_ratio : [0.64, 0.16, 0.2]
+Best Val RMSE: 0.1412, Best Test RMSE: 0.1449
+Train_val_test_split_ratio : [0.05, 0.15, 0.8]
+Best Val RMSE: 0.1436, Best Test RMSE: 0.1437
+
+
+Dataset name : SGEMM_GPU_kernel_performance
+Dataset size : large
+Task type : regression
+Train_val_test_split_ratio : [0.64, 0.16, 0.2]
+Best Val RMSE: 0.0136, Best Test RMSE: 0.0138
+Train_val_test_split_ratio : [0.05, 0.15, 0.8]
+Best Val RMSE: 0.0183, Best Test RMSE: 0.0184
+
+
+Dataset name : nyc-taxi-green-dec-2016
+Dataset size : large
+Task type : regression
+Train_val_test_split_ratio : [0.64, 0.16, 0.2]
+Best Val RMSE: 0.6548, Best Test RMSE: 0.6488
+Train_val_test_split_ratio : [0.05, 0.15, 0.8]
+Best Val RMSE: 0.6797, Best Test RMSE: 0.6795
+
+
