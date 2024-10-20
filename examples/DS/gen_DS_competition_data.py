@@ -64,11 +64,16 @@ if __name__=="__main__":
             os.makedirs(directory_all)
     if not os.path.exists(directory_without_y_test):
         os.makedirs(directory_without_y_test)
+    folder_names=[]
     for idx,key in enumerate(list(train_data.keys())):
         print(idx,key)
-        folder_name=key.replace("[", "").replace("]", "_").replace(" ", "_").replace("(", "_").replace(")", "").replace("-", "_").replace("&","_")
-        all = f'./all/{folder_name}'
-        without_y_test=f'./Competition_data/{folder_name}'
+        # folder_name=key.replace("[", "").replace("]", "_").replace(" ", "_").replace("(", "_").replace(")", "").replace("-", "_").replace("&","_")
+        folder_names.append(key)
+    folder_names=sorted(folder_names)
+    for idx,key in enumerate(folder_names):
+        folder_name=f"Dataset_{idx+1}"
+        all = f'./all/Dataset_{idx+1}'
+        without_y_test=f'./Competition_data/Dataset_{idx+1}'
         if not os.path.exists(all):
             os.makedirs(all)
         if not os.path.exists(without_y_test):
@@ -102,12 +107,14 @@ if __name__=="__main__":
         # print(f"X_num_result.shape : {X_num_result.shape if X_num_result is not None else None}")
         # print(f"X_cat_result.shape : {X_cat_result.shape if X_cat_result is not None else None}")
         X_result=pd.concat([X_num_result,X_cat_result],axis=1)
+        # 修改欄位名稱為 feature_1, feature_2, ..., feature_n
+        X_result.columns = [f'Feature_{i+1}' for i in range(len(X_result.columns))]
         # print(f"X_result.shape : {X_result.shape}")
         # print(f"y_result.shape : {y_result.shape}")
         data=pd.concat([X_result,y_result],axis=1)
         print(data)
         print(data.shape)
-
+        
 
 
 
@@ -136,7 +143,7 @@ if __name__=="__main__":
         public_private_split = np.array([1] * half_size + [0] * (len(y_test) - half_size))
 
         # 打亂 public 和 private 樣本的排列
-        np.random.seed(42)  # 固定隨機種子以確保可重現性
+        np.random.seed(191)  # 固定隨機種子以確保可重現性
         np.random.shuffle(public_private_split)
         # 將 public_private_split 加入到 y_test 作為新的一列
         y_test = pd.DataFrame({'y_test': y_test, 'leaderboard': public_private_split})
