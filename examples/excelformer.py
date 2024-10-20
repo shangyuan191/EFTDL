@@ -116,8 +116,8 @@ def gen_best_result_report(filename):
         'Best Val Result Metric 2': best_val_result_metrics_2,
         'Best Test Result Name 2': best_test_result_names_2,
         'Best Test Result Metric 2': best_test_result_metrics_2,
-        'Full sample - FewShot(val)': [float(best_val_result_metric_1)-float(best_val_result_metric_2) for best_val_result_metric_1,best_val_result_metric_2 in zip(best_val_result_metrics_1,best_val_result_metrics_2)],
-        'Full sample - FewShot(test)': [float(best_test_result_metric_1)-float(best_test_result_metric_2) for best_test_result_metric_1,best_test_result_metric_2 in zip(best_test_result_metrics_1,best_test_result_metrics_2)]
+        'Full sample -> FewShot(val)': ["+"+str(round(float(best_val_result_metric_2)-float(best_val_result_metric_1),4)) if float(best_val_result_metric_2)-float(best_val_result_metric_1)>=0 else float(best_val_result_metric_2)-float(best_val_result_metric_1) for best_val_result_metric_1,best_val_result_metric_2 in zip(best_val_result_metrics_1,best_val_result_metrics_2)],
+        'Full sample -> FewShot(test)': ["+"+str(round(float(best_test_result_metric_2)-float(best_test_result_metric_1),4)) if float(best_test_result_metric_2)-float(best_test_result_metric_1)>=0 else float(best_test_result_metric_2)-float(best_test_result_metric_1) for best_test_result_metric_1,best_test_result_metric_2 in zip(best_test_result_metrics_1,best_test_result_metrics_2)]
     }
 
     # 創建 DataFrame
